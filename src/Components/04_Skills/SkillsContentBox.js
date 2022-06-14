@@ -9,7 +9,7 @@ const SkillsContentBox = (props) => {
         <>
             {
                 skills.map(skill => (
-                    <article className='skills__details'>
+                    <article className='skills__details' key={skill.name}>
                         <BsPatchCheckFill />
                         <div>
                             <h4>{skill.name}</h4>
