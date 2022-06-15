@@ -1,0 +1,51 @@
+.Experience__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Experience {
+    background: var(--color-bg-variant);
+    border-radius: 0 0 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+}
+
+.Experience:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.Experience__head {
+    background: var(--color-primary);
+    padding: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.Experience__head>h3 {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--color-bg);
+}
+
+.Experience__list {
+    padding: 2rem;
+}
+
+.Experience__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.Experience__list-icon {
+    color: var(--color-primary);
+    margin-top: 3px;
+}
+
+.Experience__list p {
+    font-size: 0.9rem;
+}

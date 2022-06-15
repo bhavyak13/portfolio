@@ -1,7 +1,8 @@
 import React from 'react'
 import { GoPrimitiveDot } from 'react-icons/go'
+import './Experience.css'
 
-const a=['','','','',''];
+const a = ['', '', '', '', ''];
 
 const Experience = () => {
   return (
@@ -11,16 +12,16 @@ const Experience = () => {
       <div className='container Experience__container'>
         <article className='Experience'>
           <div className='Experience__head'>
-            Web Development Intern
-            <ul className='Experience__list'>
-              {a.map((e,i) => (
-                <li key={i}>
-                  <GoPrimitiveDot className='Experience__list-icon' />
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                </li>
-              ))}
-            </ul>
+            <h3>Web Development Intern</h3>
           </div>
+          <ul className='Experience__list'>
+            {a.map((e, i) => (
+              <li key={i}>
+                <GoPrimitiveDot className='Experience__list-icon' />
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              </li>
+            ))}
+          </ul>
         </article>
       </div>
     </section>
