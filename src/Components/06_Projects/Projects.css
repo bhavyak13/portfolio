@@ -38,35 +38,12 @@
 /*========================= Media Queries (Meduim devices) =========================*/
 /*
 @media screen and (max-width:1024px) {
-    .skills__container {
-        grid-template-columns: 1fr;
-    }
-
-    .skills__container>div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .skills__content {
-        padding: 1rem;
-    }
-}*/
+*/
 
 /*========================= Media Queries (Small devices) =========================*/
 @media screen and (max-width:600px) {
     .project__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-    }
-
-    .skills__container>div {
-        width: 100%;
-        padding: 2rem 1rem;
-        margin: 0 auto;
-    }
-
-    .skills__content {
-        padding: 1rem;
     }
 }
