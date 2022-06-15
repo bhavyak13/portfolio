@@ -1,0 +1,72 @@
+.project__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.project__item {
+    background: var(--color-bg-variant);
+    border-radius: 2rem;
+    padding: 1.2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.project__item:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.project__item-img {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    /* margin-bottom: 0.5rem; */
+}
+
+.project__item h3 {
+    margin: 1.2rem 0.5rem;
+}
+
+.project__item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+/*========================= Media Queries (Meduim devices) =========================*/
+/*
+@media screen and (max-width:1024px) {
+    .skills__container {
+        grid-template-columns: 1fr;
+    }
+
+    .skills__container>div {
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+
+    .skills__content {
+        padding: 1rem;
+    }
+}*/
+
+/*========================= Media Queries (Small devices) =========================*/
+@media screen and (max-width:600px) {
+    .project__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .skills__container>div {
+        width: 100%;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+    }
+
+    .skills__content {
+        padding: 1rem;
+    }
+}
