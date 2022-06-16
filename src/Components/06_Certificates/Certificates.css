@@ -1,0 +1,59 @@
+.Certificates__container {
+    width: 40% !important;
+    height: 500px;
+    user-select: none;
+    padding-bottom: 3rem !important;
+}
+
+.Certificate {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Certificate-head>h3 {
+    color: var(--color-primary);
+}
+
+.Certificate-head>p {
+    color: var(--color-light);
+    font-weight: 300;
+}
+
+.Certificate-head {
+    margin-bottom: 1rem;
+}
+
+.Certificate>div {
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.Certificate>div>a>img {
+    overflow: hidden;
+}
+
+/*========================= Media Queries (Meduim devices) =========================*/
+@media screen and (max-width:1024px) {
+    .container.Certificates__container {
+        width: 60% !important;
+    }
+}
+
+/*========================= Media Queries (Small devices) =========================*/
+@media screen and (max-width:600px) {
+    .container.Certificates__container {
+        width: 80% !important;
+        height: 500px;
+    }
+
+    .Certificate-head>p {
+        display: none;
+    }
+
+}
