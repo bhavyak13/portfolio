@@ -1,6 +1,6 @@
 .Certificates__container {
     width: 40% !important;
-    height: 500px;
+    height: 560px;
     user-select: none;
     padding-bottom: 3rem !important;
 }
@@ -23,6 +23,7 @@
 .Certificate-head>p {
     color: var(--color-light);
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .Certificate-head {
