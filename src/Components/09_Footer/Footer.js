@@ -6,11 +6,11 @@ const links = ['Home', 'About', 'Skill', 'Experience', 'Project', 'Certificate',
 const footer = () => {
   return (
     <footer id='footer'>
-      <a href='#' className='footer-logo'>BHAVYA</a>
+      <a href='#Home' className='footer-logo'>BHAVYA</a>
       <ul className='links'>
         {links.map(link => (
           <li key={link}>
-            <a href={link === 'Home' ? '#' : `#${link}`}>
+            <a href={`#${link}`}>
               {link}
             </a>
           </li>
