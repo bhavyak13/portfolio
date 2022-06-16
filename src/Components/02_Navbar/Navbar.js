@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineUser, AiOutlineProject } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi';
 import './Navbar.css'
 
-const navItems = ['', 'about', 'skill', 'project', 'contact'];
+const navItems = ['', 'About', 'Skill', 'Project', 'Contact'];
 const navImg = [<AiOutlineHome />, <AiOutlineUser />, <BiBook />, <AiOutlineProject />, <BiMessageSquareDetail />,];
 
 const Navbar = () => {

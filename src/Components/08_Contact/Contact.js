@@ -5,10 +5,13 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <section id='contact'>
+    <section id='Contact'>
+
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
+
       <div className='contact__container container'>
+
         <div className='contact__options'>
           {contactOptions.map(({ name, url, icon, description }, i) => (
             <article className='contact__option' key={name}>

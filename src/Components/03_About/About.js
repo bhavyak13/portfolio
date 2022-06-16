@@ -9,7 +9,7 @@ import { SiBookstack } from 'react-icons/si'
 
 const About = () => {
 	return (
-		<section id='about'>
+		<section id='About'>
 			<h5>Get to know</h5>
 			<h2>About Me</h2>
 

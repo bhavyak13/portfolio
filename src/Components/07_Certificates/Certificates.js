@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 
 const Certificates = () => {
   return (
-    <section id="certificates">
+    <section id="Certificate">
       <h5>proud to achieve</h5>
       <h2>Certificates</h2>
       <Swiper

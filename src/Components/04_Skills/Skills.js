@@ -4,7 +4,7 @@ import { frontendSkills, backendSkills } from './SkillsSeed'
 
 const Skills = () => {
   return (
-    <section id="skill">
+    <section id="Skill">
       <h5>what skills I have</h5>
       <h2>My Skills</h2>
       <div className='container skills__container'>

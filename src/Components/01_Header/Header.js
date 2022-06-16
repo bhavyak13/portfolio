@@ -5,18 +5,18 @@ import HeaderSocials from './HeaderSocials'
 import './Header.css'
 
 const Header = () => {
-  return ( 
+  return (
     <header id="">
       <div className='container header__container'>
         <h5>Hello I'm</h5>
         <h1>Bhavya Kawatra</h1>
         <h5 className='text-light'>MERN Stack Developer</h5>
         <CTA />
-        <HeaderSocials />
+        <HeaderSocials classN={'header__socials'} />
         <div className='me'>
           <img src={dp} className='' alt='me' />
         </div>
-        <a href='#contact' className='scroll_down'>Scroll Down</a>
+        <a href='#Contact' className='scroll_down'>Scroll Down</a>
       </div>
     </header>
   )

@@ -6,7 +6,7 @@ const a = ['', '', '', '', ''];
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id='Experience'>
       <h5>Work I have done</h5>
       <h2>My Experience</h2>
       <div className='container Experience__container'>
