@@ -39,7 +39,7 @@ const About = () => {
 						<br />- 📖 In my free time, you can find me solving DSA problems!
 					</p>
 
-					<a href='#contact' className='btn btn-primary'>
+					<a href='#Contact' className='btn btn-primary'>
 						Let's Talk
 					</a>
 				</div>
