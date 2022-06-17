@@ -6,7 +6,7 @@ const links = ['Home', 'About', 'Skill', 'Experience', 'Project', 'Certificate',
 const footer = () => {
   return (
     <footer id='footer'>
-      <a href='#Home' className='footer-logo'>BHAVYA</a>
+      <a href='#Home' className='footer-logo'>Bhavya Kawatra</a>
       <ul className='links'>
         {links.map(link => (
           <li key={link}>
