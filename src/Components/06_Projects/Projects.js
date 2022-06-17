@@ -12,7 +12,10 @@ const Projects = () => {
           <article className='project__item' key={i}>
             <div className='project__item-title'>
               <h3>{p.githubLink.slice(29)}</h3>
-              <a href={p.githubLink} className='btn' target='_blank' rel='noreferrer'>Github</a>
+              <div className='project__item-CTA'>
+                <a href={p.githubLink} className='btn' target='_blank' rel='noreferrer'>Github</a>
+                <a href={p.liveDemo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+              </div>
             </div>
             <div className='project__item-img'>
               <img src={p.img} alt={p.img} />
