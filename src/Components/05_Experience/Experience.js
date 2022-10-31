@@ -2,7 +2,12 @@ import React from 'react'
 import { GoPrimitiveDot } from 'react-icons/go'
 import './Experience.css'
 
-const a = ['', '', '', '', ''];
+const a = [
+  'Working as a Full-Stack Developer in Indian-Cart Project team',
+  'Developed various webpages on the live project named Your Indian Cart including Home Page, Shipping-Cost-Calculator, Store, Dashboard and many others using VueJS as frontend framework',
+  'Added various new API requests at the backend for the corresponding webpages using FeathersJS.',
+  //  '', '', '', ''
+];
 
 const Experience = () => {
   return (
@@ -17,8 +22,10 @@ const Experience = () => {
           <ul className='Experience__list'>
             {a.map((e, i) => (
               <li key={i}>
-                <GoPrimitiveDot className='Experience__list-icon' />
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p>
+                  <GoPrimitiveDot className='Experience__list-icon' />
+                </p>
+                <p>{e}</p>
               </li>
             ))}
           </ul>

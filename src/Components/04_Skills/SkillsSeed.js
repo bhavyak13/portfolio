@@ -12,7 +12,7 @@ const frontendSkills = [
         lvl: 3
     },
     {
-        name: 'React',
+        name: 'ReactJs',
         lvl: 3
     },
     {
@@ -20,19 +20,12 @@ const frontendSkills = [
         lvl: 3
     },
     {
-        name: 'Material UI',
-        lvl: 2
+        name: 'VueJs',
+        lvl: 3
     },
 ]
 const backendSkills = [
     {
-        name: 'MongoDB',
-        lvl: 3
-    },
-    {
-        name: 'MySQL',
-        lvl: 2
-    }, {
         name: 'Node JS',
         lvl: 2
     },
@@ -41,9 +34,25 @@ const backendSkills = [
         lvl: 2
     },
     {
-        name: 'Python',
+        name: 'FeathersJS',
+        lvl: 2
+    },
+    {
+        name: 'MongoDB',
         lvl: 3
     },
+    {
+        name: 'MySQL',
+        lvl: 3
+    },
+    {
+        name: 'PostgreSQL',
+        lvl: 3
+    },
+    // {
+    //     name: 'Python',
+    //     lvl: 2
+    // },
 ]
 const levels = ['basic', 'intermediate', 'experienced'];
 export { frontendSkills, backendSkills, levels }

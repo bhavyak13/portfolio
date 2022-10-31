@@ -1,8 +1,10 @@
 import React from 'react'
 import certificates from './CertificatesHelper'
 import './Certificates.css'
-import { Pagination } from 'swiper';
+import { Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css/navigation';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
@@ -13,9 +15,10 @@ const Certificates = () => {
       <h5>proud to achieve</h5>
       <h2>Certificates</h2>
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Navigation]}
         spaceBetween={50}
         slidesPerView={1}
+        navigation
         pagination={{ clickable: true }}
         className='container Certificates__container'
       >

@@ -51,18 +51,23 @@ const cards = [
 	{
 		icon: <MdOutlineMapsHomeWork />,
 		name: 'Experience',
-		text: '3+ months Working',
+		text: '6+ months Working',
 	},
 	{
 		icon: <FaAward />,
 		name: 'Achievements',
-		text: 'Pupil @Codeforces',
+		text: 'Specialist @Codeforces',
 	},
 	{
 		icon: <SiBookstack />,
-		name: 'Projects',
-		text: '10+ Completed',
+		name: 'DSA Problems',
+		text: '1500+ Solved',
 	},
+	// {
+	// 	icon: <SiBookstack />,
+	// 	name: 'Projects',
+	// 	text: '10+ Completed',
+	// },
 ]
 
 export default About
