@@ -1,5 +1,5 @@
 import React from 'react'
-import dp from '../../assets/dp.jpg'
+import dp from '../../assets/dp1.jpeg'
 import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 import './Header.css'
